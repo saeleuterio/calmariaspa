@@ -1,6 +1,6 @@
 @use '../abstract/variaveis';
 @use '../abstract/mixins';
-#nosso-espaco {
+#nosso-espaco{
     @include mixins.margem-central(80%);
     .detalhes{
         width: 100%;

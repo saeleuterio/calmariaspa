@@ -31,6 +31,11 @@ header nav ul a {
   font-size: 1rem;
   color: #0C0421;
   font-weight: 500;
+  transition: 0.3s;
+}
+header nav ul a:hover {
+  transform: scale(1.2);
+  font-weight: 700;
 }
 header #home {
   max-width: 1040px;
@@ -125,7 +130,7 @@ header #home .img-home img {
   color: #0C0421;
 }
 #servico .cards .card-texto {
-  font-family: "Krona One", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
   color: #0C0421;
 }/*# sourceMappingURL=styles.css.map */
